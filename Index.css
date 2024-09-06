@@ -1,0 +1,116 @@
+body {
+    background-image: linear-gradient(to bottom, #f6f7d5, #a27fc2);
+    color: #53004c;
+    background-repeat: no-repeat;
+}
+h1 {
+    background-color: #9b9b9b;
+    background-image: url("Building.jpg"); 
+    background-repeat: no-repeat;
+    line-height: 500%;
+    background-position: right;
+    text-indent: 3em;
+    
+}
+#meme {
+    text-align: center;
+}
+#dental {
+    width: 40%;
+    float: left;
+    padding: 1em;
+    margin: 2em;
+}
+#money {
+    width: 40%;
+    float: right;
+    padding: 1em;
+    margin: 2em;
+}
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 2em;
+    
+    margin-top: 100px;
+   
+}
+#box {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    align-items: center;
+   
+  
+}
+hr {
+    border: 3px solid black;
+}
+#color {
+    background-color: azure;
+}
+
+table {
+    border:"1";
+    border-collapse: collapse;
+
+}
+tr:nth-of-type(odd) {
+    background-color: #ff8e42;
+}
+tr:nth-of-type(even) {
+    background-color: aliceblue;
+}
+td {
+    text-align: center;
+    padding: 0.5em;
+    border: 2px solid #9e6666;
+}
+th {
+    
+    padding: 0.5em;
+    border: 2px solid #9e6666;
+}
+.text {
+    text-align: left;
+}
+
+#special {
+    clear: both;
+}
+nav {
+    padding: 1em;
+    margin-left: 1em;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: none;
+    background-color: #a30000;
+     transition: background-color 2s linear;
+}
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    
+    width: 140px;
+    padding-right: 30px;
+}
+/* #news {
+    float: left;
+    display: block;
+    text-align: left;
+    width: 140px;
+}
+    */
+input, textarea {
+    
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    margin-left: 140px;
+}
